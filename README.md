@@ -1,5 +1,17 @@
 # docker-atom-editor
 
+##Resolviendo el problema de
+
+dial unix /var/run/docker.sock: connect: permission denied.
+```
+sudo usermod -a -G docker $USER
+```
+
+or run with
+```
+sudo
+```
+
 ## Overview
 
 Install and run the [Atom editor](https://atom.io/) from within a Docker container.
